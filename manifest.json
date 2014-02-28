@@ -1,5 +1,5 @@
 {
-    "name": "DevToolsPanel",
+    "name": "Rally DevTools",
     "version": "0.1",
     "description": "A bare-bones example of communication between devtools and an inspected page",
     "devtools_page": "devtools.html",
@@ -9,9 +9,11 @@
         ]
     },
     "permissions": [
-        "tabs", 
+        "tabs",
         "http://*/*",
         "https://*/*"
     ],
+    "icons": { "128": "rally-logo-40.png" },
     "manifest_version": 2
+
 }
